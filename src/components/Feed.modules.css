@@ -1,0 +1,46 @@
+.FeedHeader {
+    /* Width & Height */
+    height: 70px;
+
+    /* Color & Border */
+    background-color: teal;
+    color: beige;
+}
+
+.FeedFooter {
+    /* Width & Height */
+    height: 70px;
+
+    /* Color & Border */
+    background-color: beige;
+    color: teal;
+}
+
+.ItemList {
+    /* Flexbox */
+    display: flex;
+    flex-direction: column;
+}
+
+.Item {
+    /* Width & Height */
+    height: 300px;
+
+    /* Misc */
+    color: teal;
+}
+
+.FeedHeader,
+.FeedFooter,
+.Item {
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Color & Border */
+    border: 1px solid teal;
+
+    /* Misc */
+    font-size: 35px;
+}

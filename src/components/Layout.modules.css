@@ -1,0 +1,24 @@
+/* layout.module.css*/
+
+.container{
+    /* Flexbox */
+    display: flex;
+    flex-direction: column;
+
+    /* width & height*/
+    width: 100%;
+    height: 100%;
+
+    /* Misc*/
+    overflow: hidden;
+    position: fixed;
+}
+
+.main{
+    /* width & height */
+    width: 100%;
+    height: 100%;
+
+    /* Misc */
+    overflow-y: scroll;
+}
